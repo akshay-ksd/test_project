@@ -41,10 +41,10 @@ const LoginScreen = () => {
   return (
     <View style={[styles.container,{backgroundColor: themtype == "light"? color.white:color.black}]}>
         <View style={styles.inputView}>
-            <LoginInput placeholder={"Enter username"}
+            <LoginInput placeholder={"Enter username(Akshay)"}
                         isPassword={false}
                         onChangeText={onChangeText}/>
-            <LoginInput placeholder={"Enter Password"}
+            <LoginInput placeholder={"Enter Password(123456)"}
                         isPassword={true}
                         onChangeText={onChangeText}/>
         </View>
